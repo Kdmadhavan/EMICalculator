@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-09T13:42:45 CST" name="Default suite" finished-at="2022-01-09T13:43:11 CST" duration-ms="26411">
+    <groups>
+    </groups>
+    <test started-at="2022-01-09T13:42:45 CST" name="Default test" finished-at="2022-01-09T13:43:11 CST" duration-ms="26411">
+      <class name="com.emicalculator.tests.HomePageTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.emicalculator.tests.HomePageTest@53fdffa1]" started-at="2022-01-09T13:42:45 CST" name="beforeClass" finished-at="2022-01-09T13:43:00 CST" duration-ms="14898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="homeLoanDataTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.emicalculator.tests.HomePageTest@53fdffa1]" started-at="2022-01-09T13:43:01 CST" name="homeLoanDataTest" data-provider="homeLoanData" finished-at="2022-01-09T13:43:03 CST" duration-ms="1270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5000000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanDataTest -->
+        <test-method signature="homeLoanDataTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.emicalculator.tests.HomePageTest@53fdffa1]" started-at="2022-01-09T13:43:03 CST" name="homeLoanDataTest" data-provider="homeLoanData" finished-at="2022-01-09T13:43:04 CST" duration-ms="958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanDataTest -->
+        <test-method signature="homeLoanDataTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.emicalculator.tests.HomePageTest@53fdffa1]" started-at="2022-01-09T13:43:04 CST" name="homeLoanDataTest" data-provider="homeLoanData" finished-at="2022-01-09T13:43:04 CST" duration-ms="897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10000000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanDataTest -->
+        <test-method signature="homeLoanDataTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.emicalculator.tests.HomePageTest@53fdffa1]" started-at="2022-01-09T13:43:04 CST" name="homeLoanDataTest" data-provider="homeLoanData" finished-at="2022-01-09T13:43:05 CST" duration-ms="881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanDataTest -->
+        <test-method signature="homeLoanDataTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.emicalculator.tests.HomePageTest@53fdffa1]" started-at="2022-01-09T13:43:05 CST" name="homeLoanDataTest" data-provider="homeLoanData" finished-at="2022-01-09T13:43:06 CST" duration-ms="580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanDataTest -->
+        <test-method signature="personalLoanDataTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.emicalculator.tests.HomePageTest@53fdffa1]" started-at="2022-01-09T13:43:06 CST" name="personalLoanDataTest" data-provider="personalLoanData" finished-at="2022-01-09T13:43:07 CST" duration-ms="610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[350000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalLoanDataTest -->
+        <test-method signature="personalLoanDataTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.emicalculator.tests.HomePageTest@53fdffa1]" started-at="2022-01-09T13:43:07 CST" name="personalLoanDataTest" data-provider="personalLoanData" finished-at="2022-01-09T13:43:07 CST" duration-ms="520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[24000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalLoanDataTest -->
+        <test-method signature="personalLoanDataTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.emicalculator.tests.HomePageTest@53fdffa1]" started-at="2022-01-09T13:43:07 CST" name="personalLoanDataTest" data-provider="personalLoanData" finished-at="2022-01-09T13:43:08 CST" duration-ms="518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalLoanDataTest -->
+        <test-method signature="personalLoanDataTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.emicalculator.tests.HomePageTest@53fdffa1]" started-at="2022-01-09T13:43:08 CST" name="personalLoanDataTest" data-provider="personalLoanData" finished-at="2022-01-09T13:43:08 CST" duration-ms="540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[700000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalLoanDataTest -->
+        <test-method signature="personalLoanDataTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.emicalculator.tests.HomePageTest@53fdffa1]" started-at="2022-01-09T13:43:08 CST" name="personalLoanDataTest" data-provider="personalLoanData" finished-at="2022-01-09T13:43:09 CST" duration-ms="484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalLoanDataTest -->
+        <test-method signature="carLoanDataTest(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.emicalculator.tests.HomePageTest@53fdffa1]" started-at="2022-01-09T13:43:09 CST" name="carLoanDataTest" data-provider="carLoanData" finished-at="2022-01-09T13:43:09 CST" duration-ms="581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[400000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanDataTest -->
+        <test-method signature="carLoanDataTest(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.emicalculator.tests.HomePageTest@53fdffa1]" started-at="2022-01-09T13:43:09 CST" name="carLoanDataTest" data-provider="carLoanData" finished-at="2022-01-09T13:43:10 CST" duration-ms="481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanDataTest -->
+        <test-method signature="carLoanDataTest(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.emicalculator.tests.HomePageTest@53fdffa1]" started-at="2022-01-09T13:43:10 CST" name="carLoanDataTest" data-provider="carLoanData" finished-at="2022-01-09T13:43:10 CST" duration-ms="490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[350000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanDataTest -->
+        <test-method signature="carLoanDataTest(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.emicalculator.tests.HomePageTest@53fdffa1]" started-at="2022-01-09T13:43:10 CST" name="carLoanDataTest" data-provider="carLoanData" finished-at="2022-01-09T13:43:11 CST" duration-ms="529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanDataTest -->
+        <test-method signature="carLoanDataTest(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.emicalculator.tests.HomePageTest@53fdffa1]" started-at="2022-01-09T13:43:11 CST" name="carLoanDataTest" data-provider="carLoanData" finished-at="2022-01-09T13:43:11 CST" duration-ms="452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanDataTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.emicalculator.tests.HomePageTest@53fdffa1]" started-at="2022-01-09T13:43:11 CST" name="afterClass" finished-at="2022-01-09T13:43:11 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.emicalculator.tests.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
